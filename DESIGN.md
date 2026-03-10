@@ -1,3 +1,12 @@
+## Global Game Structure and Monetization
+
+- Single, persistent global server for all players.
+- Each game cycle lasts about one year, followed by a global reset and new world generation.
+- Only four IAP packs: $1, $5, $20, $100, max twice daily; $5+ disables ads.
+- No other microtransactions or pay-to-win.
+- Global chat, guilds, alliances, and 24/7 attack system.
+- Players choose spawn location anywhere on the globe, with real-world bonuses for certain locations.
+- 1:1 scale Earth map using real map data for biomes, elevation, and resources. Players can start at their real or chosen location.
 
 # Conquest of Paradise — Design Document
 
