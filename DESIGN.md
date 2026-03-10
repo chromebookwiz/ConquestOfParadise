@@ -1,18 +1,22 @@
-# Project Hexless — Design Document
+
+# Conquest of Paradise — Design Document
+
 
 ## Vision
-A gridless, polygon-based 4X grand strategy game inspired by Civilization V and VI with optional real-time tactical battles.
+A massive, cloud-based, mobile-first 4X grand strategy game set on a spherical, continuous, scaled-down Earth. The world is a true globe, not a flat map, and all gameplay is designed for seamless play on both web and mobile devices. Inspired by Civilization and Total War, but with a persistent, online world and real-time multiplayer support. The map is a procedurally generated, continuous 3D sphere representing Earth, with realistic biomes, elevation, and resource distribution. Every system is optimized for mobile usability and cloud hosting, with a focus on global competition and cooperation.
 
 ---
 
-## Core Systems Design (from AGENT.md)
+
+## Core Systems Design (from AGENT.md, adapted for Conquest of Paradise)
+
 
 ### 1. The Map
-- Continuous 2D plane using Voronoi tessellation for biomes
-- 10 biome types: Temperate, Desert, Jungle, Arctic, Mountains, Hills, Plains, Coastal, Ocean, Rivers
-- Continuous heightmap via Perlin noise for elevation effects
-- River system following elevation gradients
-- Procedural resource placement
+- Continuous 3D sphere (Earth-like) using spherical Voronoi tessellation for biomes
+- 10+ biome types: Temperate, Desert, Jungle, Arctic, Mountains, Hills, Plains, Coastal, Ocean, Rivers, plus polar caps and equatorial zones
+- Continuous heightmap via Perlin/simplex noise for elevation effects on a sphere
+- River system following elevation gradients on a globe
+- Procedural resource placement, respecting latitude and longitude for realism
 
 ### 2. Resources
 - 4 categories: Food, Production, Luxury, Strategic, Special
@@ -53,9 +57,10 @@ A gridless, polygon-based 4X grand strategy game inspired by Civilization V and 
 - Parallel civics tree
 - Government with policy cards
 
-### 8. 48 Civilizations
-- Each with unique unit, building, ability
-- Balanced for competitive play
+
+### 8. 48+ Civilizations
+- Each with unique unit, building, ability, and starting location on the globe
+- Balanced for global, persistent, competitive play
 
 ---
 

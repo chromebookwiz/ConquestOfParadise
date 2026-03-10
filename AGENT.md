@@ -19,19 +19,22 @@ You operate in **infinite development cycles**. At the end of every cycle, you w
 
 ---
 
-## THE GAME: PROJECT HEXLESS
+
+## THE GAME: CONQUEST OF PARADISE
 
 ### Vision Statement
 
-A gridless, polygon-based 4X grand strategy game inspired by Sid Meier's Civilization V and VI, with an optional real-time tactical battle mode inspired by Total War. The map has no tiles and no hexes — everything is continuous space governed by distance, radius, and polygon boundaries. The game should nail the "one more turn" feeling above all else.
+A massive, cloud-based, mobile-first 4X grand strategy game set on a spherical, continuous, scaled-down Earth. The world is a true globe, not a flat map, and all gameplay is designed for seamless play on both web and mobile devices. Inspired by Civilization and Total War, but with a persistent, online world and real-time multiplayer support. The map is a procedurally generated, continuous 3D sphere representing Earth, with realistic biomes, elevation, and resource distribution. Every system is optimized for mobile usability and cloud hosting, with a focus on global competition and cooperation.
+
 
 ### Core Design Pillars
 
-1. **Gridless everything.** Movement is radius-based (units have a movement range in world units per turn). City borders are expanding polygons. Attack range is a radius. Resource nodes are polygon regions of varying size. There are no tiles, no hexes, no grid snapping anywhere.
-2. **Deep but readable.** Lots of systems, but the UI must make them understandable. Tooltips, clear iconography, and good information hierarchy.
-3. **Two layers of combat.** The outer strategic map plays like Civ V (turn-based, one unit per "stack" with stacking limits). When you assault or defend a city (after depleting its outer wall HP), you optionally zoom into a real-time Total War-style tactical battle on a 3D terrain map of that city and its surroundings. This mode can be toggled off in settings, in which case battles auto-resolve with modifiers.
-4. **Elevation matters everywhere.** Hills and mountains provide vision range bonuses, ranged attack bonuses, and defensive bonuses on both the strategic map and the tactical battle map. Units attacking uphill take penalties. Units on high ground get flanking immunity from below.
-5. **One more turn.** Every system should feed into the dopamine loop: tech unlocks feel impactful, city growth is visually satisfying, expansion feels rewarding, and there's always something about to finish next turn.
+1. **Spherical, gridless world.** The map is a true 3D sphere (Earth-like), with all movement, borders, and ranges based on world units and radii. No tiles, no hexes, no grid snapping. All calculations respect the curvature of the globe.
+2. **Cloud-native, mobile-first.** The game is designed for persistent online play, scalable cloud hosting, and a touch-optimized UI for mobile devices. All features are accessible and performant on both web and mobile.
+3. **Deep, readable systems.** Many interlocking systems, but always with clear UI, tooltips, and information hierarchy for mobile and desktop users.
+4. **Real-time and turn-based layers.** Strategic map is turn-based, but tactical battles and some world events are real-time. Multiplayer and cloud sync are first-class features.
+5. **Global competition and cooperation.** Players compete and ally on a persistent, living world. Events, seasons, and world congresses drive ongoing engagement.
+6. **One more turn, anywhere.** The dopamine loop is always present, and the game is playable in short sessions on mobile or long sessions on desktop.
 
 ---
 

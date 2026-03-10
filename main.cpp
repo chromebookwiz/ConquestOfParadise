@@ -5,7 +5,7 @@ int main(int argc, char* argv[]) {
         return 1;
     }
 
-    SDL_Window* window = SDL_CreateWindow("Project Hexless", 800, 600, SDL_WINDOW_HIDDEN);
+    SDL_Window* window = SDL_CreateWindow("Conquest of Paradise", 800, 600, SDL_WINDOW_HIDDEN);
     if (!window) {
         SDL_Quit();
         return 1;

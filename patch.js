@@ -159,7 +159,7 @@ const menuUI = `// ────────────────────�
 
                 <div style={{ textAlign: "center", zIndex: 1, animation: "fadeUp 1s ease" }}>
                     <div style={{ fontSize: 12, letterSpacing: 10, textTransform: "uppercase", color: "var(--gold-dark)", marginBottom: 16, fontWeight: 600 }}>A Gridless 4X Strategy Game</div>
-                    <h1 style={{ fontFamily: "'Cinzel Decorative', serif", fontSize: 80, fontWeight: 900, margin: 0, letterSpacing: 8, background: "linear-gradient(180deg, #f0e6c8 0%, #c9a84c 40%, #8a6a20 100%)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", animation: "glow 5s ease-in-out infinite", lineHeight: 1 }}>HEXLESS</h1>
+                    <h1 style={{ fontFamily: "'Cinzel Decorative', serif", fontSize: 56, fontWeight: 900, margin: 0, letterSpacing: 4, background: "linear-gradient(180deg, #f0e6c8 0%, #c9a84c 40%, #8a6a20 100%)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", animation: "glow 5s ease-in-out infinite", lineHeight: 1 }}>CONQUEST OF PARADISE</h1>
                     <div style={{ fontFamily: "'EB Garamond', serif", fontSize: 16, fontStyle: "italic", color: "var(--text-dim)", marginTop: 12, letterSpacing: 2 }}>"The world is yours to claim."</div>
                 </div>
                 

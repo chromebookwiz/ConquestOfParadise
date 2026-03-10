@@ -1283,7 +1283,7 @@ export default function HexlessGame() {
                 {/* Title */}
                 <div style={{ textAlign: "center", zIndex: 1, animation: "fadeUp 1.2s cubic-bezier(0.16, 1, 0.3, 1)" }}>
                     <div style={{ fontSize: 13, letterSpacing: 12, textTransform: "uppercase", color: "var(--gold-dark)", marginBottom: 16, fontWeight: 700, opacity: 0.8 }}>A Gridless 4X Strategy Game</div>
-                    <h1 style={{ fontFamily: "'Cinzel Decorative', serif", fontSize: 96, fontWeight: 900, margin: 0, letterSpacing: 12, background: "linear-gradient(180deg, #f0e6c8 0%, #c9a84c 40%, #8a6a20 100%)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", animation: "glow 5s ease-in-out infinite", lineHeight: 0.9 }}>HEXLESS</h1>
+                    <h1 style={{ fontFamily: "'Cinzel Decorative', serif", fontSize: 64, fontWeight: 900, margin: 0, letterSpacing: 6, background: "linear-gradient(180deg, #f0e6c8 0%, #c9a84c 40%, #8a6a20 100%)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", animation: "glow 5s ease-in-out infinite", lineHeight: 0.9 }}>CONQUEST OF PARADISE</h1>
                     <div style={{ fontFamily: "'EB Garamond', serif", fontSize: 18, fontStyle: "italic", color: "var(--text-dim)", marginTop: 20, letterSpacing: 3, opacity: 0.7 }}>"The world is yours to claim."</div>
                 </div>
 
@@ -1453,7 +1453,7 @@ export default function HexlessGame() {
                 {/* Gold ornament line */}
                 <div style={{ position: "absolute", bottom: 0, left: "5%", right: "5%", height: 1, background: "linear-gradient(90deg, transparent, var(--gold-dark), transparent)" }} />
 
-                <span style={{ fontFamily: "'Cinzel Decorative', serif", fontWeight: 700, fontSize: 14, color: "var(--gold)", letterSpacing: 3, marginRight: 20 }}>HEXLESS</span>
+                <span style={{ fontFamily: "'Cinzel Decorative', serif", fontWeight: 700, fontSize: 14, color: "var(--gold)", letterSpacing: 3, marginRight: 20 }}>CONQUEST OF PARADISE</span>
 
                 <div style={{ display: "flex", gap: 14, alignItems: "center" }}>
                     <span className="yield-badge" style={{ color: "#8cba44" }}>🌾 {totalY.food}</span>
