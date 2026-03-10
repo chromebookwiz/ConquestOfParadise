@@ -1,0 +1,10 @@
+build/
+*.exe
+*.dll
+*.so
+*.dylib
+*.o
+*.obj
+.vscode/
+.DS_Store
+Thumbs.db
